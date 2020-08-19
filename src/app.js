@@ -27,6 +27,8 @@ app.listen(3000, () => {
   console.log("server is running on port 3000");
 });
 
+console.log();
+
 //use this to check which ports are running: sudo lsof -i :3000
 //then canterminate via: kill -9 PID
 
